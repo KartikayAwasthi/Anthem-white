@@ -6,61 +6,61 @@ import ColorChangeTransition from '../ColorChangeTransition';
 import CartButton from '../CartButton';
 
 // Import INARA 3D images
-const inaraImg = "/fan 3d/Inaara/Black/1.png";
+const inaraImg = "/fan 3d/Inaara/Black/1.webp";
 
 // Color images - each color has 3 images for different views
 const inaraColorImages = {
   "Pearl White": [
-    "/fan 3d/Inaara/pearl-white/1.png", 
-    "/fan 3d/Inaara/pearl-white/2.png", 
-    "/fan 3d/Inaara/pearl-white/3.png"
-  ],
-  "Midnight Black": [
-    "/fan 3d/Inaara/Black/1.png", 
-    "/fan 3d/Inaara/Black/2.png", 
-    "/fan 3d/Inaara/Black/3.png"
-  ],
-  "Royal Blue": [
-    "/fan 3d/Inaara/Blue/1.png", 
-    "/fan 3d/Inaara/Blue/2.png", 
-    "/fan 3d/Inaara/Blue/3.png"
-  ],
-  "Antique Gold": [
-    "/fan 3d/Inaara/yellow/1.png", 
-    "/fan 3d/Inaara/yellow/2.png", 
-    "/fan 3d/Inaara/yellow/3.png"
-  ],
-  "Rose Gold": [
-    "/fan 3d/Inaara/rose-gold/1.png", 
-    "/fan 3d/Inaara/rose-gold/2.png", 
-    "/fan 3d/Inaara/rose-gold/3.png"
-  ],
-  "Purple": [
-    "/fan 3d/Inaara/purple/1.png", 
-    "/fan 3d/Inaara/purple/2.png", 
-    "/fan 3d/Inaara/purple/3.png"
+    "/fan 3d/Inaara/pearl-white/1.webp", 
+    
   ],
   "Beckers Brown": [
-    "/fan 3d/Inaara/Brown/1.png", 
-    "/fan 3d/Inaara/Brown/2.png", 
-    "/fan 3d/Inaara/Brown/3.png"
+    "/fan 3d/Inaara/brown/1.webp",
+    "/fan 3d/Inaara/brown/2.webp",
+    "/fan 3d/Inaara/brown/3.webp"
   ],
+  "Midnight Black": [
+    "/fan 3d/Inaara/Black/1.webp", 
+    "/fan 3d/Inaara/Black/2.webp", 
+    "/fan 3d/Inaara/Black/3.webp"
+  ],
+  "Royal Blue": [
+    "/fan 3d/Inaara/Blue/1.webp", 
+    "/fan 3d/Inaara/Blue/2.webp", 
+    "/fan 3d/Inaara/Blue/3.webp"
+  ],
+  "Antique Gold": [
+    "/fan 3d/Inaara/yellow/1.webp", 
+    "/fan 3d/Inaara/yellow/2.webp", 
+    
+  ],
+  "Rose Gold": [
+    "/fan 3d/Inaara/rose-gold/1.webp", 
+    "/fan 3d/Inaara/rose-gold/2.webp", 
+    "/fan 3d/Inaara/rose-gold/3.webp"
+  ],
+  "Purple": [
+    "/fan 3d/Inaara/purple/1.webp", 
+    "/fan 3d/Inaara/purple/2.webp", 
+    "/fan 3d/Inaara/purple/3.webp"
+  ],
+  
   "Classic White": [
-    "/fan 3d/Inaara/white/1.png", 
-    "/fan 3d/Inaara/white/2.png", 
-    "/fan 3d/Inaara/white/3.png"
+    "/fan 3d/Inaara/white/1.webp", 
+    "/fan 3d/Inaara/white/2.webp", 
+    "/fan 3d/Inaara/white/3.webp"
   ]
 };
 
 // Primary images for each color (first image of each color)
-const inaraImg1 = "/fan 3d/Inaara/pearl-white/1.png";
-const inaraImg2 = "/fan 3d/Inaara/Black/1.png";
-const inaraImg3 = "/fan 3d/Inaara/Blue/1.png";
-const inaraImg4 = "/fan 3d/Inaara/yellow/1.png";
-const inaraImg5 = "/fan 3d/Inaara/purple/1.png";
-const inaraImg6 = "/fan 3d/Inaara/rose-gold/1.png";
-const inaraImg7 = "/fan 3d/Inaara/Brown/1.png";
-const inaraImg8 = "/fan 3d/Inaara/white/1.png";
+const inaraImg1 = "/fan 3d/Inaara/pearl-white/1.webp";
+const inaraImg2 = "/fan 3d/Inaara/Black/1.webp";
+const inaraImg3 = "/fan 3d/Inaara/Blue/1.webp";
+const inaraImg4 = "/fan 3d/Inaara/yellow/1.webp";
+const inaraImg5 = "/fan 3d/Inaara/purple/1.webp";
+const inaraImg6 = "/fan 3d/Inaara/rose-gold/1.webp";
+const inaraImg7 = "/fan 3d/Inaara/brown/1.webp";
+const inaraImg8 = "/fan 3d/Inaara/white/1.webp";
 
 // Creative images for marketing
 const inaraCreatives = [
@@ -504,7 +504,7 @@ const InaraFan = () => {
               {selectedMotorType === 'bldc' && (
                 <div className="absolute bottom-4 right-6 sm:right-10 md:right-16 lg:right-20 z-20 w-8 sm:w-10 md:w-14 lg:w-20">
                   <img 
-                    src="/remote.png" 
+                    src="/remote.webp" 
                     alt="Fan Remote" 
                     className="w-full h-auto object-contain drop-shadow-lg animate-float opacity-100 hover:opacity-100 transition-opacity"
                   />

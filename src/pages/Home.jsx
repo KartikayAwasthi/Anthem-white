@@ -7,10 +7,10 @@ import Testimonial from "./Testimonial";
 import SplitText from "../../Reactbits/SplitText/SplitText";
 
 // Images
-const skyroImg = "/fan 3d/Skyro/blue/3.png";
-const inaraImg = "/fan 3d/Inaara/white/3.png";
-const evaaraImg = "/fan 3d/Evaara/brown-4/3.png";
-const laraImg = "/fan 3d/lara/brown/1.png";
+const skyroImg = "/fan 3d/Skyro/blue/3.webp";
+const inaraImg = "/fan 3d/Inaara/white/3.webp";
+const evaaraImg = "/fan 3d/Evaara/brown-4/3.webp";
+const laraImg = "/fan 3d/lara/brown/2.webp";
 
 // Optimized banner images - using available images and their variations
 const bannerImages = [

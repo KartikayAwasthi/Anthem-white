@@ -7,6 +7,13 @@ import CartButton from '../CartButton';
 
 const laraImg1 = "/Lara/fan1.png";
 
+// Brown color images - 3 different views
+const laraBrownImages = [
+  "/fan 3d/lara/brown/1.webp",
+  "/fan 3d/lara/brown/2.webp",
+  "/fan 3d/lara/brown/3.webp"
+];
+
 const laraCreatives = [
   "/evaara-creatives/4.jpg",
   "/evaara-creatives/5.jpg"
@@ -46,7 +53,12 @@ const laraData = {
   },
   rating: 4.5,
   colors: [
-    { name: "Light Brown", image: laraImg1, code: "#8B4513" }
+    { 
+      name: "Light Brown", 
+      image: laraImg1, 
+      code: "#8B4513",
+      images: laraBrownImages
+    }
   ],
   itemDetails: {
     brandName: "Anthem by Emsquare Industries",
@@ -193,6 +205,9 @@ const LaraFan = () => {
   };
 
   const getCurrentImage = () => {
+    if (selectedColor && selectedColor.images && selectedColor.images.length > 0) {
+      return selectedColor.images[selectedImageIndex];
+    }
     return selectedColor ? selectedColor.image : laraData.image;
   };
 
@@ -349,9 +364,9 @@ const LaraFan = () => {
               {/* Remote image at bottom right (shifted left) */}
               <div className="absolute bottom-4 right-6 sm:right-10 md:right-16 lg:right-20 z-20 w-8 sm:w-10 md:w-14 lg:w-20">
                 <img 
-                  src="/remote.png" 
+                  src="/remote.webp" 
                   alt="Fan Remote" 
-                  className="w-full h-auto object-contain drop-shadow-lg animate-float opacity-75 hover:opacity-100 transition-opacity"
+                  className="w-full h-auto object-contain drop-shadow-lg animate-float opacity-100 hover:opacity-200 transition-opacity"
                 />
               </div>
 
@@ -369,6 +384,41 @@ const LaraFan = () => {
                   dragConstraints={{ left: 0, right: 0 }}
                   dragElastic={0.2}
                 />
+                
+                {/* Image navigation controls */}
+{selectedColor && selectedColor.images && selectedColor.images.length > 1 && (
+  <>
+    {/* Left navigation button */}
+    <button 
+      onClick={() => setSelectedImageIndex(prev => (prev > 0 ? prev - 1 : selectedColor.images.length - 1))}
+      className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg z-30"
+    >
+      <ChevronLeft size={20} />
+    </button>
+    
+    {/* Right navigation button */}
+    <button 
+      onClick={() => setSelectedImageIndex(prev => (prev < selectedColor.images.length - 1 ? prev + 1 : 0))}
+      className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg z-30"
+    >
+      <ChevronRight size={20} />
+    </button>
+    
+    {/* Indicator dots at bottom */}
+    <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-30">
+      {selectedColor.images.map((_, idx) => (
+        <button
+          key={idx}
+          onClick={() => setSelectedImageIndex(idx)}
+          className={`w-2 h-2 rounded-full transition-all ${
+            selectedImageIndex === idx ? "bg-amber-700 w-3" : "bg-amber-300"
+          }`}
+        />
+      ))}
+    </div>
+  </>
+)}
+               
               </div>
               
               {/* Floating Action Buttons */}

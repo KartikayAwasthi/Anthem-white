@@ -72,35 +72,35 @@ const evaaraData = {
       image: evaaraImg1, 
       code: "#FFFFFF",
       folder: "cream",
-      images3d: ["/fan 3d/Evaara/cream/1.png", "/fan 3d/Evaara/cream/2.png", "/fan 3d/Evaara/cream/3.png"]
+      images3d: ["/fan 3d/Evaara/cream/1.webp", "/fan 3d/Evaara/cream/2.webp", "/fan 3d/Evaara/cream/3.webp"]
     },
     { 
       name: "Teak Wood", 
       image: evaaraImg2, 
       code: "#CD7F32",
       folder: "brown-1",
-      images3d: ["/fan 3d/Evaara/brown-1/1.png", "/fan 3d/Evaara/brown-1/2.png", "/fan 3d/Evaara/brown-1/3.png"]
+      images3d: ["/fan 3d/Evaara/brown-1/1.webp", "/fan 3d/Evaara/brown-1/2.webp", "/fan 3d/Evaara/brown-1/3.webp"]
     },
     { 
       name: "Matte Black", 
       image: evaaraImg3, 
       code: "#2F2F2F",
       folder: "Black",
-      images3d: ["/fan 3d/Evaara/Black/1.png", "/fan 3d/Evaara/Black/2.png", "/fan 3d/Evaara/Black/3.png"]
+      images3d: ["/fan 3d/Evaara/Black/1.webp", "/fan 3d/Evaara/Black/2.webp", "/fan 3d/Evaara/Black/3.webp"]
     },
     { 
       name: "Brown", 
       image: evaaraImg4, 
       code: "#C0C0C0",
       folder: "Brown-2",
-      images3d: ["/fan 3d/Evaara/Brown-2/1.png", "/fan 3d/Evaara/Brown-2/2.png", "/fan 3d/Evaara/Brown-2/3.png"]
+      images3d: ["/fan 3d/Evaara/Brown-2/1.webp", "/fan 3d/Evaara/Brown-2/2.webp", "/fan 3d/Evaara/Brown-2/3.webp"]
     },
     { 
       name: "Walnut Brown", 
       image: evaaraImg5, 
       code: "#D4AF37",
       folder: "Brown-3",
-      images3d: ["/fan 3d/Evaara/Brown-3/1.png", "/fan 3d/Evaara/Brown-3/2.png", "/fan 3d/Evaara/Brown-3/3.png"]
+      images3d: ["/fan 3d/Evaara/Brown-3/1.webp", "/fan 3d/Evaara/Brown-3/2.webp", "/fan 3d/Evaara/Brown-3/3.webp"]
     }
   ],
   itemDetails: {
@@ -445,7 +445,7 @@ const EvaaraFan = () => {
               {/* Remote image at bottom right */}
               <div className="absolute bottom-4 right-6 sm:right-10 md:right-16 lg:right-20 z-20 w-8 sm:w-10 md:w-14 lg:w-20">
                 <img 
-                  src="/remote.png" 
+                  src="/remote.webp" 
                   alt="Fan Remote" 
                   className="w-full h-auto object-contain drop-shadow-lg animate-float opacity-100  transition-opacity"
                 />

@@ -11,58 +11,58 @@ const skyroImg = "/fan 3d/Skyro/Black/1.png";
 // Color images - each color has 3 images for different views
 const skyroColorImages = {
   "Pearl White": [
-    "/fan 3d/Skyro/white-silver/1.png", 
-    "/fan 3d/Skyro/white-silver/2.png", 
+    "/fan 3d/Skyro/white-silver/1.webp", 
+    "/fan 3d/Skyro/white-silver/2.webp", 
     
   ],
   "Midnight Black": [
-    "/fan 3d/Skyro/Black/1.png", 
-    "/fan 3d/Skyro/Black/2.png", 
-    "/fan 3d/Skyro/Black/3.png"
+    "/fan 3d/Skyro/Black/1.webp", 
+    "/fan 3d/Skyro/Black/2.webp", 
+    "/fan 3d/Skyro/Black/3.webp"
   ],
   "Aeagan Blue": [
-    "/fan 3d/Skyro/blue/1.png", 
-    "/fan 3d/Skyro/blue/2.png", 
-    "/fan 3d/Skyro/blue/3.png"
+    "/fan 3d/Skyro/blue/1.webp", 
+    "/fan 3d/Skyro/blue/2.webp", 
+    "/fan 3d/Skyro/blue/3.webp"
   ],
   "Antique Gold": [
-    "/fan 3d/Skyro/yellow/1.png", 
-    "/fan 3d/Skyro/yellow/2.png", 
-    "/fan 3d/Skyro/yellow/3.png"
+    "/fan 3d/Skyro/yellow/1.webp", 
+    "/fan 3d/Skyro/yellow/2.webp", 
+    "/fan 3d/Skyro/yellow/3.webp"
   ],
   "Rose Gold": [
-    "/fan 3d/Skyro/rose-gold/1.png", 
-    "/fan 3d/Skyro/rose-gold/2.png", 
-    "/fan 3d/Skyro/rose-gold/3.png"
+    "/fan 3d/Skyro/rose-gold/1.webp", 
+    "/fan 3d/Skyro/rose-gold/2.webp", 
+    "/fan 3d/Skyro/rose-gold/3.webp"
   ],
   "Purple": [
-    "/fan 3d/Skyro/purple/1.png", 
-    "/fan 3d/Skyro/purple/2.png", 
-    "/fan 3d/Skyro/purple/3.png"
+    "/fan 3d/Skyro/purple/1.webp", 
+    "/fan 3d/Skyro/purple/2.webp", 
+    "/fan 3d/Skyro/purple/3.webp"
   ],
   "Brown": [
-    "/fan 3d/Skyro/Brown/1.png", 
-    "/fan 3d/Skyro/Brown/2.png", 
-    "/fan 3d/Skyro/Brown/3.png"
+    "/fan 3d/Skyro/Brown/1.webp", 
+    "/fan 3d/Skyro/Brown/2.webp", 
+    "/fan 3d/Skyro/Brown/3.webp"
   ],
   "Light Brown": [
-    "/fan 3d/Skyro/light brown/1.png", 
-    "/fan 3d/Skyro/light brown/2.png", 
-    "/fan 3d/Skyro/light brown/3.png"
+    "/fan 3d/Skyro/light brown/1.webp", 
+    "/fan 3d/Skyro/light brown/2.webp", 
+    "/fan 3d/Skyro/light brown/3.webp"
   ],
   "White Gold": [
-    "/fan 3d/Skyro/white-gold/1.png", 
-    "/fan 3d/Skyro/white-gold/2.png", 
-    "/fan 3d/Skyro/white-gold/3.png"
+    "/fan 3d/Skyro/white-gold/1.webp", 
+    "/fan 3d/Skyro/white-gold/2.webp", 
+    "/fan 3d/Skyro/white-gold/3.webp"
   ]
 };
 
 // Primary images for each color (first image of each color)
-const skyroImg1 = "/fan 3d/Skyro/white-silver/1.png";
-const skyroImg2 = "/fan 3d/Skyro/Black/1.png";
-const skyroImg3 = "/fan 3d/Skyro/blue/1.png";
-const skyroImg4 = "/fan 3d/Skyro/yellow/1.png";
-const skyroImg5 = "/fan 3d/Skyro/purple/1.png";
+const skyroImg1 = "/fan 3d/Skyro/white-silver/1.webp";
+const skyroImg2 = "/fan 3d/Skyro/Black/1.webp";
+const skyroImg3 = "/fan 3d/Skyro/blue/1.webp";
+const skyroImg4 = "/fan 3d/Skyro/yellow/1.webp";
+const skyroImg5 = "/fan 3d/Skyro/purple/1.webp";
 
 const skyroCreatives = [
   "/Skyro-creatives/1.jpg",
@@ -148,10 +148,10 @@ const skyroData = {
     { name: "Aeagan Blue", image: skyroImg3, code: "#4169E1" },
     { name: "Antique Gold", image: skyroImg4, code: "#D4AF37" },
     { name: "Purple", image: skyroImg5, code: "#8A2BE2" },
-    { name: "Rose Gold", image: "/fan 3d/Skyro/rose-gold/1.png", code: "#B76E79" },
-    { name: "Beckers Brown", image: "/fan 3d/Skyro/Brown/1.png", code: "#964B00" },
-    { name: "Light Brown", image: "/fan 3d/Skyro/light brown/1.png", code: "#C4A484" },
-    { name: "Opal White", image: "/fan 3d/Skyro/white-gold/1.png", code: "#F5F5F5" }
+    { name: "Rose Gold", image: "/fan 3d/Skyro/rose-gold/1.webp", code: "#B76E79" },
+    { name: "Beckers Brown", image: "/fan 3d/Skyro/Brown/2.webp", code: "#964B00" },
+    { name: "Light Brown", image: "/fan 3d/Skyro/light brown/2.webp", code: "#C4A484" },
+    { name: "Opal White", image: "/fan 3d/Skyro/white-gold/1.webp", code: "#F5F5F5" }
   ],
   itemDetails: {
     brandName: "Anthem by Emsquare Industries",

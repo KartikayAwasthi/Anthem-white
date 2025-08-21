@@ -7,10 +7,10 @@ import { scrollToElement, scrollToTop } from "../utils/smoothScroll";
 import Cart from "../components/Cart";
 
 // Import assets
-const skyroImg = "/fan 3d/Skyro/Black/1.png";
-const inaraImg = "/fan 3d/Inaara/purple/1.png";
-const evaaraImg = "/fan 3d/Evaara/brown-4/2.png";
-const laraImg = "/fan 3d/lara/brown/2.png";
+const skyroImg = "/fan 3d/Skyro/Black/1.webp";
+const inaraImg = "/fan 3d/Inaara/purple/1.webp";
+const evaaraImg = "/fan 3d/Evaara/brown-4/2.webp";
+const laraImg = "/fan 3d/lara/brown/1.webp";
 // const pedestalImg = "/pedestal.webp";
 const anthemLogo = "/lll.png";
 
